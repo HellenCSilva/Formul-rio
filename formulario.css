@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    color: aliceblue;
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/01/21/57/wallpaper-967836_960_720.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1250px;
+    height: 600px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover{
+    color: blueviolet;
+    background-color: aliceblue;
+    transition-delay:0.1s;
+    
+}
